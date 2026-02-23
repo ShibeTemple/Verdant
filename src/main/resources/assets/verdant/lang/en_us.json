@@ -1,5 +1,13 @@
 {
   "itemGroup.verdant": "Verdant",
+
+  "entity.verdant.cockroach": "Cockroach",
+  "item.verdant.cockroach_wing_fragment": "Cockroach Wing Fragment",
+  "item.verdant.cockroach_wing": "Cockroach Wing",
+  "item.verdant.cockroach_ootheca": "Cockroach Ootheca",
+  "item.verdant.maraca": "Maraca",
+  "item.verdant.sombrero": "Sombrero",
+  "item.verdant.cockroach_spawn_egg": "Cockroach Spawn Egg",
   
   "item.verdant.bone_sword": "Bone Sword",
   "item.verdant.bone_shovel": "Bone Shovel",

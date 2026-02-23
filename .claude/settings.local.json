@@ -17,7 +17,13 @@
       "Bash(xargs -I{} sh -c 'javap -cp {} net.minecraft.block.Block 2>/dev/null | grep -i \"\"isLadder\"\" && echo \"\"Found in: {}\"\"')",
       "Bash(jar tf:*)",
       "Bash(xargs -I{} sh -c 'echo \"\"=== {} ===\"\"; cat \"\"{}\"\"')",
-      "Bash(xargs:*)"
+      "Bash(xargs:*)",
+      "Bash(ls:*)",
+      "Bash(tail:*)",
+      "Bash(head:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:maven.fabricmc.net)",
+      "Bash(grep:*)"
     ]
   }
 }

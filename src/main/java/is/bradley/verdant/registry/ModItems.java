@@ -2,6 +2,7 @@ package is.bradley.verdant.registry;
 
 import is.bradley.verdant.Verdant;
 import is.bradley.verdant.item.BasicShieldItem;
+import is.bradley.verdant.item.CockroachOothecaItem;
 import is.bradley.verdant.item.SickleItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
@@ -10,6 +11,18 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    // Cockroach Items
+    public static final Item COCKROACH_WING_FRAGMENT = register("cockroach_wing_fragment",
+            new Item(new FabricItemSettings()));
+    public static final Item COCKROACH_WING = register("cockroach_wing",
+            new Item(new FabricItemSettings()));
+    public static final Item COCKROACH_OOTHECA = register("cockroach_ootheca",
+            new CockroachOothecaItem(new FabricItemSettings().maxCount(16)));
+    public static final Item MARACA = register("maraca",
+            new Item(new FabricItemSettings()));
+    public static final Item SOMBRERO = register("sombrero",
+            new Item(new FabricItemSettings()));
+    // Spawn egg registered after entity types; see ModEntities.register()
     // Bone Tools
     public static final Item BONE_SWORD = register("bone_sword", 
             new SwordItem(ModToolMaterials.BONE, 3, -2.4f, new FabricItemSettings()));
@@ -113,6 +126,14 @@ public class ModItems {
             new BlockItem(ModBlocks.CRIMSON_PANELS, new FabricItemSettings()));
     public static final Item WARPED_PANELS = register("warped_panels", 
             new BlockItem(ModBlocks.WARPED_PANELS, new FabricItemSettings()));
+
+    // Spawn egg – must be registered AFTER entity types
+    public static Item COCKROACH_SPAWN_EGG;
+
+    public static void registerSpawnEgg() {
+        COCKROACH_SPAWN_EGG = register("cockroach_spawn_egg",
+                new SpawnEggItem(ModEntities.COCKROACH, 0x0D0909, 0x42241E, new FabricItemSettings()));
+    }
 
     private static Item register(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Verdant.MOD_ID, name), item);

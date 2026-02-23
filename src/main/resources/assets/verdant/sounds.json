@@ -1,0 +1,9 @@
+{
+  "cockroach_hurt": {
+    "sounds": [
+      "verdant:cockroach_hurt_0",
+      "verdant:cockroach_hurt_1",
+      "verdant:cockroach_hurt_2"
+    ]
+  }
+}

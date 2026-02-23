@@ -32,6 +32,14 @@ public class ModItemGroups {
                 entries.add(ModItems.HEMP_SEEDS);
                 entries.add(ModItems.ROPE);
                 
+                // Cockroach items
+                entries.add(ModItems.COCKROACH_SPAWN_EGG);
+                entries.add(ModItems.COCKROACH_OOTHECA);
+                entries.add(ModItems.MARACA);
+                entries.add(ModItems.SOMBRERO);
+                entries.add(ModItems.COCKROACH_WING_FRAGMENT);
+                entries.add(ModItems.COCKROACH_WING);
+
                 // Fiery items
                 entries.add(ModItems.FIERY_GLASS);
                 entries.add(ModItems.FIERY_GLASS_BLOCK);
