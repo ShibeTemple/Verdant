@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "waterlogged=false": { "model": "verdant:block/fiery_torch" }
+  }
+}

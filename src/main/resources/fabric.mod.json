@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "verdant",
+  "version": "${version}",
+  "name": "Verdant",
+  "description": "A Fabric mod featuring bone tools/armor, hemp, fiery torches, and wooden beams.",
+  "authors": [
+    "Vulp"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/verdant/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "is.bradley.verdant.Verdant"
+    ],
+    "client": [
+      "is.bradley.verdant.VerdantClient"
+    ]
+  },
+  "mixins": [
+    "verdant.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.23",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}

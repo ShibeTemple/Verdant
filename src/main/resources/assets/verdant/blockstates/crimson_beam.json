@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "verdant:block/crimson_beam" },
+    "axis=z": { "model": "verdant:block/crimson_beam", "x": 90 },
+    "axis=x": { "model": "verdant:block/crimson_beam", "x": 90, "y": 90 }
+  }
+}

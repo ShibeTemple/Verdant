@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "verdant:block/jungle_beam_top",
+    "side": "verdant:block/jungle_beam"
+  }
+}

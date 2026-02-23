@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Run directory (dev runtime files, logs, worlds, mods)
+run/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Fabric Loom cache (if present)
+.remappedSrc/

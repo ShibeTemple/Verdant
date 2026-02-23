@@ -1,0 +1,20 @@
+{
+  "textures": {
+    "0": "verdant:block/birch_small_beam_top",
+    "1": "verdant:block/birch_beam",
+    "particle": "verdant:block/birch_beam"
+  },
+  "elements": [
+    {
+      "from": [0, 5, 5], "to": [16, 11, 11],
+      "faces": {
+        "north": {"uv": [9, 0, 15, 16], "rotation": 90, "texture": "#1"},
+        "east": {"uv": [0, 0, 6, 6], "texture": "#0"},
+        "south": {"uv": [9, 0, 15, 16], "rotation": 90, "texture": "#1"},
+        "west": {"uv": [0, 0, 6, 6], "texture": "#0"},
+        "up": {"uv": [1, 0, 7, 16], "rotation": 90, "texture": "#1"},
+        "down": {"uv": [1, 0, 7, 16], "rotation": 90, "texture": "#1"}
+      }
+    }
+  ]
+}

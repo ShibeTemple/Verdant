@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" B ", "B B", "BBB"],
+  "key": {"B": {"item": "minecraft:bone"}},
+  "result": {"item": "verdant:bone_shield"}
+}

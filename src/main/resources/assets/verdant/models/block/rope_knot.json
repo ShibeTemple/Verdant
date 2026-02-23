@@ -1,0 +1,31 @@
+{
+  "textures": {
+    "0": "verdant:block/rope",
+    "1": "verdant:block/rope_overlay",
+    "particle": "verdant:block/rope"
+  },
+  "elements": [
+    {
+      "from": [6, 6, 6], "to": [10, 10, 10],
+      "faces": {
+        "north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+        "east": {"uv": [0, 0, 4, 4], "texture": "#0"},
+        "south": {"uv": [0, 0, 4, 4], "texture": "#0"},
+        "west": {"uv": [0, 0, 4, 4], "texture": "#0"},
+        "up": {"uv": [0, 0, 4, 4], "texture": "#0"},
+        "down": {"uv": [0, 0, 4, 4], "texture": "#0"}
+      }
+    },
+    {
+      "from": [5.8, 5.8, 5.8], "to": [10.2, 10.2, 10.2],
+      "faces": {
+        "north": {"uv": [0, 0, 4, 4], "texture": "#1"},
+        "east": {"uv": [0, 0, 4, 4], "texture": "#1"},
+        "south": {"uv": [0, 0, 4, 4], "texture": "#1"},
+        "west": {"uv": [0, 0, 4, 4], "texture": "#1"},
+        "up": {"uv": [0, 0, 4, 4], "texture": "#1"},
+        "down": {"uv": [0, 0, 4, 4], "texture": "#1"}
+      }
+    }
+  ]
+}

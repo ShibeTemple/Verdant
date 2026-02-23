@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "verdant:block/acacia_beam_top",
+    "side": "verdant:block/acacia_beam"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "multipart": [
+    { "when": { "connections": "2" }, "apply": { "model": "verdant:block/oak_small_beam_center" } },
+    { "when": { "connections": "0", "x_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_full_x" } },
+    { "when": { "connections": "1", "x_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_full_x" } },
+    { "when": { "connections": "0", "y_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_full_y" } },
+    { "when": { "connections": "1", "y_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_full_y" } },
+    { "when": { "connections": "0", "z_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_full_z" } },
+    { "when": { "connections": "1", "z_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_full_z" } },
+    { "when": { "connections": "2", "x_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_parts_x" } },
+    { "when": { "connections": "3", "x_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_parts_x" } },
+    { "when": { "connections": "2", "y_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_parts_y" } },
+    { "when": { "connections": "3", "y_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_parts_y" } },
+    { "when": { "connections": "2", "z_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_parts_z" } },
+    { "when": { "connections": "3", "z_axis": "true" }, "apply": { "model": "verdant:block/oak_small_beam_parts_z" } }
+  ]
+}
