@@ -2,6 +2,8 @@
 .gradle/
 build/
 out/
+gradle/
+net/
 
 # Run directory (dev runtime files, logs, worlds, mods)
 run/
